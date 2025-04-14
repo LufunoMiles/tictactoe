@@ -1,7 +1,26 @@
+import java.awt.*;
+import java.awt.event.*;
+
+class  Fdemo extends Frame implements ActionListener{
+    Fdemo(){
+    setLayout(null);
+    setVisible(true);
+    setSize(800,600);
+    setLocation(400,100);
+    setBackground(Color.red);
+    setForeground(Color.white);
+    }
+
+    public void actionPerformed(ActionEvent e){
+        
+    }
+
+}
+
 public class tictactoe {
  
 public static void main(String[] args) {
-    System.out.println("Welcome to Tic Tac Toe!");
+    
 }
 
 }
